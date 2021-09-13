@@ -6,7 +6,7 @@ class Dropdown extends Component {
   render() {
     return (
       <DropdownButton id="dropdown-basic-button" title="...">
-        <Link to="/ranking" className="text-decoration-none">
+        <Link to="/trybetrivia/ranking" className="text-decoration-none">
           <p className="text-center mt-2">
             Ver Ranking
           </p>

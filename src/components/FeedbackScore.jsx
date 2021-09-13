@@ -48,7 +48,7 @@ class FeedbackScore extends Component {
             </button>
           </div>
         </Link>
-        <Link to="/ranking" className="text-decoration-none">
+        <Link to="/trybetrivia/ranking" className="text-decoration-none">
           <div className="row mt-1">
             <button
               className="btn btn-start btn-lg btn-block"

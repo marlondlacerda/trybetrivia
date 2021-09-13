@@ -67,7 +67,7 @@ class Game extends Component {
       });
     } else {
       this.createRanking();
-      history.push('/feedback');
+      history.push('/trybetrivia/feedback');
     }
   }
 

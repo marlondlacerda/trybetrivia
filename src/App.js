@@ -8,11 +8,11 @@ export default function App() {
     <div className="trivia-background">
       <Switch>
         <Route exact path="/trybetrivia/" component={ Login } />
-        <Route path="/gamescreen" component={ Game } />
-        <Route path="/configscreen" component={ Settings } />
-        <Route path="/feedback" component={ Feedback } />
-        <Route path="/ranking" component={ Ranking } />
-        <Route path="/credits" component={ Credits } />
+        <Route path="/trybetrivia/gamescreen" component={ Game } />
+        <Route path="/trybetrivia/configscreen" component={ Settings } />
+        <Route path="/trybetrivia/feedback" component={ Feedback } />
+        <Route path="/trybetrivia/ranking" component={ Ranking } />
+        <Route path="/trybetrivia/credits" component={ Credits } />
 
       </Switch>
     </div>

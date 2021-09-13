@@ -23,7 +23,6 @@ class Ranking extends Component {
 
   top10() {
     const { score } = this.state;
-
     return score.map((jogador, index) => (
       <section
         className="row mb-1 align-items-baseline border border-white btn-start"
@@ -50,12 +49,15 @@ class Ranking extends Component {
   }
 
   loadRanking() {
+    if (localStorage.ranking) {
     const ranking = JSON.parse(localStorage.ranking);
     const rankingUppdate = [...ranking].slice(0, numberRanking);
     this.setState({ score: rankingUppdate });
+    }
   }
 
   render() {
+    const { score } = this.state;
     return (
       <section className="container-fluid text-center ranking-page">
         <br />
@@ -75,7 +77,7 @@ class Ranking extends Component {
               <div className="col">Score</div>
             </section>
             <hr className="mb-4" />
-            { this.top10() }
+            { score.length === 0 ? <h4>SEM JOGADORES NO RANKING NO MOMENTO!</h4> : this.top10() }
           </div>
           <Link to="/trybetrivia/" className="text-decoration-none">
             <div className="row mt-1">

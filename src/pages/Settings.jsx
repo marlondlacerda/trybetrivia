@@ -28,7 +28,7 @@ class Settings extends Component {
     const { handleSubmit, history } = this.props;
     const { category, nQuestions, diff } = this.state;
     handleSubmit({ category, nQuestions, diff });
-    history.push('/');
+    history.push('/trybetrivia/');
   }
 
   selectNumberQts() {

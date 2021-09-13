@@ -39,7 +39,7 @@ class Login extends Component {
 
     handleSubmit({ name, email });
     resetPlayer();
-    history.push('/gamescreen');
+    history.push('/trybetrivia/gamescreen');
   }
 
   handleChange({ target: { name, value } }) {
@@ -76,7 +76,7 @@ class Login extends Component {
 
       <div className="row mt-1">
 
-        <Link to="/credits" className="text-decoration-none">
+        <Link to="/trybetrivia/credits" className="text-decoration-none">
           <div className="row mt-1">
             <button
               className="trivia-btn btn btn-start btn-lg btn-block "
@@ -86,7 +86,7 @@ class Login extends Component {
             </button>
           </div>
         </Link>
-        <Link to="/configscreen" className="text-decoration-none">
+        <Link to="/trybetrivia/configscreen" className="text-decoration-none">
           <div className="row mt-1">
             <button
               className="trivia-btn btn btn-primary btn-lg btn-block "
