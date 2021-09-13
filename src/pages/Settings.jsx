@@ -140,7 +140,7 @@ class Settings extends Component {
               SALVAR CONFIGURAÇÕES
             </button>
 
-            <Link to="/" className="text-decoration-none">
+            <Link to="/trybetrivia/" className="text-decoration-none">
               <div className="row mt-1">
                 <button
                   className="btn btn-start btn-lg btn-block"

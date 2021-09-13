@@ -88,7 +88,7 @@ class Credits extends Component {
             </h5>
           </div>
           <hr className="mb-2" />
-          <Link to="/" className="text-decoration-none">
+          <Link to="/trybetrivia/" className="text-decoration-none">
             <div className="row mt-1">
               <button
                 className="btn btn-start btn-lg btn-block"

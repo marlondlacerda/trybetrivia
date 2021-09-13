@@ -77,7 +77,7 @@ class Ranking extends Component {
             <hr className="mb-4" />
             { this.top10() }
           </div>
-          <Link to="/" className="text-decoration-none">
+          <Link to="/trybetrivia/" className="text-decoration-none">
             <div className="row mt-1">
               <button
                 className="btn btn-start btn-lg btn-block"

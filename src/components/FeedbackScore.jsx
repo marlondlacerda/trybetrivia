@@ -38,7 +38,7 @@ class FeedbackScore extends Component {
           {this.numberAsserts()}
         </div>
         <hr className="mb-4" />
-        <Link to="/" className="text-decoration-none">
+        <Link to="/trybetrivia/" className="text-decoration-none">
           <div className="row mt-1">
             <button
               className="btn btn-primary btn-lg btn-block  btn-start"
