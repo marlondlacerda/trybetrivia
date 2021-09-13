@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.trivia-background { 
+  background-color: #036b52;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-primary {
+background-color: #036b52 !important;
+color: #fff;
+border-color:  #036b52 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn-start {
+  color: #fff !important;
+  background-color: #44c18c !important;
+  border-color:  #44c18c !important;
   }
+
+.dropdown-toggle {
+  background-color: #44c18c !important;
+  border-color:  #44c18c !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.trivia-navbar {
+  border-bottom: 7px solid #2fc18c;
+  background-color: #036b52;
+  width: 100% !important;
+  z-index: 999;
+  padding-right: 0 !important;
+  padding: 10px 90px 10px 94px;
 }
 
-.App-link {
-  color: #61dafb;
+.feedback-page{
+  background-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ranking-page {
+  background-color: #fff!important;
+}
+
+.test {
+  margin-left: 100px !important;
+  margin-right: 150px !important;
+
+}
+
+body {
+  background-color: #fff!important;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+a {
+  color: #036b52 !important;
 }

@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Switch, Route } from 'react-router';
 import './App.css';
+import { Login, Game, Settings, Feedback, Ranking, Credits } from './pages';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="trivia-background">
+      <Switch>
+        <Route exact path="/" component={ Login } />
+        <Route exact path="/gamescreen" component={ Game } />
+        <Route exact path="/configscreen" component={ Settings } />
+        <Route exact path="/feedback" component={ Feedback } />
+        <Route exact path="/ranking" component={ Ranking } />
+        <Route exact path="/credits" component={ Credits } />
+
+      </Switch>
     </div>
   );
 }
-
-export default App;
