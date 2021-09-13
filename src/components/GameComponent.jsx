@@ -81,7 +81,7 @@ class GameComponent extends Component {
           type="button"
           key={ key }
           className="answer rounded-pill btn btn-start btn-lg btn-block"
-          data-testid={ answer === correct ? 'correct-answer'
+          id={ answer === correct ? 'correct-answer'
             : `wrong-answer-${incorrect.findIndex((inc) => inc === answer)}` }
           value={ answer === correct ? correct : incorrect }
         >

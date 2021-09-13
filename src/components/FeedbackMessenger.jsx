@@ -10,12 +10,12 @@ import yeah from '../files/sounds/yeah.mp3';
 
 class FeedBackMessenger extends Component {
   render() {
-    const { rightQuestions } = this.props;
-    const threeRightAnswer = 3;
-    const fiveRightAnswer = 5;
+    const { rightQuestions, gameQuestions } = this.props;
+    const halfAcerts = (gameQuestions.length / 2);
+
 
     const messageFeedback = () => {
-      if (rightQuestions === fiveRightAnswer) {
+      if (rightQuestions === gameQuestions.length) {
         return (
           <>
             <h2 className="text-center">PARABÉNS, VOCÊ ACERTOU TODAS!</h2>
@@ -30,7 +30,7 @@ class FeedBackMessenger extends Component {
           </>
         );
       }
-      if (rightQuestions >= threeRightAnswer) {
+      if (rightQuestions >= halfAcerts) {
         return (
           <>
             <h2 className="text-center">Mandou bem!</h2>
@@ -65,9 +65,11 @@ class FeedBackMessenger extends Component {
 
 const mapStateToProps = ({ game }) => ({
   rightQuestions: game.asserts,
+  gameQuestions:  game.questions,
 });
 
 FeedBackMessenger.propTypes = {
+  gameQuestions: PropTypes.arrayOf(PropTypes.object).isRequired,
   rightQuestions: PropTypes.number.isRequired,
 };
 
