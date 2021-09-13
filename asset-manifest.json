@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/trybetrivia/static/css/main.a617e044.chunk.css",
-    "main.js": "/trybetrivia/static/js/main.b3b70d51.chunk.js",
-    "main.js.map": "/trybetrivia/static/js/main.b3b70d51.chunk.js.map",
-    "runtime-main.js": "/trybetrivia/static/js/runtime-main.201041d1.js",
-    "runtime-main.js.map": "/trybetrivia/static/js/runtime-main.201041d1.js.map",
-    "static/js/2.580e1f3c.chunk.js": "/trybetrivia/static/js/2.580e1f3c.chunk.js",
-    "static/js/2.580e1f3c.chunk.js.map": "/trybetrivia/static/js/2.580e1f3c.chunk.js.map",
-    "static/js/3.b29774ac.chunk.js": "/trybetrivia/static/js/3.b29774ac.chunk.js",
-    "static/js/3.b29774ac.chunk.js.map": "/trybetrivia/static/js/3.b29774ac.chunk.js.map",
+    "main.css": "/trybetrivia/static/css/main.88960766.chunk.css",
+    "main.js": "/trybetrivia/static/js/main.7735dbb1.chunk.js",
+    "main.js.map": "/trybetrivia/static/js/main.7735dbb1.chunk.js.map",
+    "runtime-main.js": "/trybetrivia/static/js/runtime-main.b40cad5c.js",
+    "runtime-main.js.map": "/trybetrivia/static/js/runtime-main.b40cad5c.js.map",
+    "static/css/2.f2512455.chunk.css": "/trybetrivia/static/css/2.f2512455.chunk.css",
+    "static/js/2.cb18ae29.chunk.js": "/trybetrivia/static/js/2.cb18ae29.chunk.js",
+    "static/js/2.cb18ae29.chunk.js.map": "/trybetrivia/static/js/2.cb18ae29.chunk.js.map",
     "index.html": "/trybetrivia/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/trybetrivia/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.580e1f3c.chunk.js.LICENSE.txt": "/trybetrivia/static/js/2.580e1f3c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/trybetrivia/static/media/logo.6ce24c58.svg"
+    "static/css/2.f2512455.chunk.css.map": "/trybetrivia/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.88960766.chunk.css.map": "/trybetrivia/static/css/main.88960766.chunk.css.map",
+    "static/js/2.cb18ae29.chunk.js.LICENSE.txt": "/trybetrivia/static/js/2.cb18ae29.chunk.js.LICENSE.txt",
+    "static/media/certa-resposta.e1f25d48.mp3": "/trybetrivia/static/media/certa-resposta.e1f25d48.mp3",
+    "static/media/e-ta-bom.66f2006b.mp3": "/trybetrivia/static/media/e-ta-bom.66f2006b.mp3",
+    "static/media/errada.f379a171.mp3": "/trybetrivia/static/media/errada.f379a171.mp3",
+    "static/media/music-theme.d8487d16.mp3": "/trybetrivia/static/media/music-theme.d8487d16.mp3",
+    "static/media/naoconsegue.2649cc6a.mp3": "/trybetrivia/static/media/naoconsegue.2649cc6a.mp3",
+    "static/media/trivialogo.d2448c9a.png": "/trybetrivia/static/media/trivialogo.d2448c9a.png",
+    "static/media/trybelogo.1bcc6d78.svg": "/trybetrivia/static/media/trybelogo.1bcc6d78.svg",
+    "static/media/yeah.b83475f0.mp3": "/trybetrivia/static/media/yeah.b83475f0.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.201041d1.js",
-    "static/js/2.580e1f3c.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.b3b70d51.chunk.js"
+    "static/js/runtime-main.b40cad5c.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.cb18ae29.chunk.js",
+    "static/css/main.88960766.chunk.css",
+    "static/js/main.7735dbb1.chunk.js"
   ]
 }
