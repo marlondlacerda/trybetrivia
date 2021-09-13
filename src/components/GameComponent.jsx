@@ -135,7 +135,7 @@ class GameComponent extends Component {
         </div>
         <hr className="mb-4" />
         <h4>
-          { question }
+          { decode(question) }
         </h4>
         <hr className="mb-4" />
         { answersArray }
