@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import ReactLogo from '../files/trybelogo.svg';
-
+// kek
 class Credits extends Component {
   integrants() {
     return (
