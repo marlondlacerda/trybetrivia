@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trybetrivia/static/css/main.a617e044.chunk.css",
+    "main.js": "/trybetrivia/static/js/main.b3b70d51.chunk.js",
+    "main.js.map": "/trybetrivia/static/js/main.b3b70d51.chunk.js.map",
+    "runtime-main.js": "/trybetrivia/static/js/runtime-main.201041d1.js",
+    "runtime-main.js.map": "/trybetrivia/static/js/runtime-main.201041d1.js.map",
+    "static/js/2.580e1f3c.chunk.js": "/trybetrivia/static/js/2.580e1f3c.chunk.js",
+    "static/js/2.580e1f3c.chunk.js.map": "/trybetrivia/static/js/2.580e1f3c.chunk.js.map",
+    "static/js/3.b29774ac.chunk.js": "/trybetrivia/static/js/3.b29774ac.chunk.js",
+    "static/js/3.b29774ac.chunk.js.map": "/trybetrivia/static/js/3.b29774ac.chunk.js.map",
+    "index.html": "/trybetrivia/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/trybetrivia/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.580e1f3c.chunk.js.LICENSE.txt": "/trybetrivia/static/js/2.580e1f3c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/trybetrivia/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.201041d1.js",
+    "static/js/2.580e1f3c.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.b3b70d51.chunk.js"
+  ]
+}
